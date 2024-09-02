@@ -1,8 +1,7 @@
-###  DATE: 
-
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  DATE: 02-09-2024
+###  NAME: JAYA ABIRAMI S
+###  ROLL NO :212223220038
+###  DEPARTMENT: IT
 
 
 
@@ -86,14 +85,20 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+```
+ while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+HAL_Delay(1000);
+HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+HAL_Delay(1000);
 
-
-
-
-
+  }
+```
 ## OUTPUT  :
  
- 
+ ![image](https://github.com/user-attachments/assets/b0020e3c-f1ec-443a-bc0d-248cc0d1ca52)
+
  
  
 ## Result :
